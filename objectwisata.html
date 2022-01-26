@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Object Wisata</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css" />
+    <link rel="stylesheet" href="jqAsset/jquery-ui.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="bg-img/me.jpg" type="image/x-icon" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  </head>
+  <body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #00ffff">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Goa Rang Reng</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Object Wisata</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="sarana.html">Sarana Akomodasi</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="wawasan.html">News</a>
+            </li>
+          </ul>
+          <div class="d-flex">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+            <button class="btn btn-outline-success" data-bs-toggle="modal" data-bs-target="#exampleModal">Search</button>
+            <!-- isi modal -->
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Inovasi</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <ol>
+                      <li>Menjadi Web Developer yang bisa diandalkan oleh tim</li>
+                      <li>Menerima masukan dari para user tentang tampilan atau fitur tambahan yang akan dimasukan dalam website</li>
+                      <li>Menjadi lebih baik lagi dalam bidang Web Development</li>
+                    </ol>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- akhir modal -->
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- akhir navbar -->
+
+    <!-- carousel -->
+    <div id="carouselExampleDark" class="carousel slide carousel-fade" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active" data-bs-interval="10000">
+          <img src="bg-img/img1.jpg" class="d-block w-100 img-size" alt="img1" />
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Goa Rang Reng</h5>
+            <p>Pengunjung juga bisa mendatangi Goa Rang Reng selain menikmati air terjun.</p>
+          </div>
+        </div>
+        <div class="carousel-item" data-bs-interval="2000">
+          <img src="bg-img/img2.jpg" class="d-block w-100 img-size" alt="img2" />
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Air Terjun</h5>
+            <p>Air terjun yang sangan unik menjadi daya tarik wisatawan</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="bg-img/bg3.jpg" class="d-block w-100 img-size" alt="bg3" />
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Lebatnya Pepohonan</h5>
+            <p>Daera yang masih asri dan sejuknya angin menjadi salah satu tempat untuk rehat yang tepat</p>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <!-- akhir carousel -->
+
+    <!-- about -->
+    <div class="container-fluid">
+      <div class="header-about text-center" data-aos="zoom-in">
+        <h2>About</h2>
+      </div>
+      <div class="row">
+        <div class="col-md-6" data-aos="fade-right">
+          <div class="section-img">
+            <img src="bg-img/img2.png" alt="" />
+          </div>
+          <div class="desc">
+            <p>
+              Air Terjun Goa Rang Reng Gianyar memang belum sepopuler air terjun yang lain, namun keindahannya sangat memukau. Keunikan pada air terjun ini airnya tidak mengucur deras ke bawah layaknya air terjun pada umumnya. Aliran air di
+              sini menyebar melalui undakan bebatuan sehingga lebih landai dan tidak curam. Dinamakan dengan Air Terjun Goa Rang Reng karena pada bagian atas air terjun yang merupakan hulu sungai terdapat sebuah gua yang dinamakan Goa Rang
+              Reng. Untuk menuju goa tersebut, pengunjung dapat menyurusi bebatuan kering di sebelah kiri air terjun.Goa Rang Reng tersebut tembus ke belakang membentuk lubang yang dapat ditembus cahaya matahari.
+            </p>
+          </div>
+        </div>
+        <div class="col-md-6" data-aos="fade-left">
+          <div class="desc">
+            <p>Daya Tarik Air Terjun Goa Rang Reng</p>
+
+            <ol>
+              <li>
+                Pemandangan Alam yang Asri Selama di perjalanan menuju Air Terjun Goa Rang Reng, Anda akan disuguhkan pemandangan yang asri nan hijau. Anda tidak akan menemui polusi di tempat ini. Suasana sejuk dan tenteram dapat menjadi
+                pelepas penat yang bagus bagi Anda yang jengah dengan rutinitas kerja atau sekolah yang melelahkan.
+              </li>
+              <li>
+                Bermain Air Anda dapat bersantai penuh ketika berada di Air Terjun Goa Rang Reng. Anda dapat bermain air dan mandi di tempat ini. Air terjun yang jernih dan berasal langsung dari pegunungan merupakan daya tarik wisata alam
+                yang keren.
+              </li>
+              <li>
+                Lokasi Foto Keren Selain digunakan untuk bermain air atau berendam, Air Terjun Goa Rang Reng juga terkenal dengan pemandangan alam dan air terjun yang keren. Banyak turis lokal maupun asing mengabadikan momen mereka dengan
+                mengambil gambar sebanyak-banyaknya di lokasi air terjun.
+              </li>
+            </ol>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- akhir about -->
+
+    <!-- lokasi -->
+    <div class="container-fluid">
+      <div class="header-lokasi text-center" data-aos="zoom-in">
+        <h2>Lokasi</h2>
+      </div>
+      <div class="row">
+        <div class="col-md-6" data-aos="fade-right">
+          <div class="img-lokasi">
+            <img src="bg-img/img1.jpg" alt="" />
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="desc" data-aos="fade-left">
+            <p>
+              Air Terjun Goa Rang Reng ini memiliki daya tersendiri bagi para pengunjung air terjun. Walaupun lokasi air terjun ini terbilang tersembunyi namun banyak juga ditemui turis lokal maupun asing berkunjung ke tempat wisata ini.
+              Berikut ini adalah daya tarik Air Terjun Goa Rang Reng Bali. Air terjun ini terletak di Banjar Gitgit, Desa Bakbakan, Kecamatan Gianyar, Kabupaten Gianyar di Pulau Bali. Rute perjalanan menuju ke Air Terjun Goa Rang Reng dapat
+              menggunakan kendaraan roda empat atau roda dua. Anda akan menemui tempat parkir untuk menitipkan kendaraan Anda. Anda lalu Anda diharuskan untuk jalan kaki menuruni setapak yang masih berupa tanah dan bebatuan. Waktu terbaik
+              untuk berkunjung ke Air Terjun Goa Rang Reng adalah di musim kemarau. Hal ini untuk menghindari jalanan setapak yang becek menuju Air Terjun Goa Rang Reng. Jalanan setapak yang becek dan bebatuan yang licin memiliki banyak
+              risiko yang membahayakan keselamatan Anda. Apabila Anda membawa anak kecil maka hal itu akan sangat merepotkan Anda.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- akhir lokasi -->
+
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+      <path
+        fill="#00ffff"
+        fill-opacity="1"
+        d="M0,128L48,154.7C96,181,192,235,288,250.7C384,267,480,245,576,224C672,203,768,181,864,149.3C960,117,1056,75,1152,80C1248,85,1344,139,1392,165.3L1440,192L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
+      ></path>
+    </svg>
+    <!-- footer -->
+    <div class="container-fluid footer">
+      <div class="row">
+        <div class="col-4">
+          <p>Copyright 2021 created with <i class="bi bi-heart-fill text-danger"></i> By Suyud Setiawan</p>
+        </div>
+        <div class="col-4">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Object Wisata</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="sarana.html">Sarana Akomodasi</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Kujungan Wisata</a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-4">
+          <h3>Everyday Agency</h3>
+          <p>Semangat Menjadi Dan Memberi</p>
+        </div>
+      </div>
+    </div>
+    <!-- akhir footer -->
+
+    <script src="jqAsset/jquery-3.6.0.min.js"></script>
+    <script src="jqAsset/jquery-ui.js"></script>
+    <script src="jqAsset/jquery-ui.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="../bootstrap-5.1.1-dist/bootstrap-5.1.1-dist/js/bootstrap.min.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>

@@ -1,0 +1,58 @@
+/* img object wisata <home> */
+.img-about {
+  width: 500px;
+}
+/* img object wisata <home> */
+
+/* img carousel */
+.img-size {
+  height: 500px;
+}
+/* img carousel */
+
+/* footer */
+.footer {
+  background-color: #00ffff;
+}
+
+.nav-link {
+  color: #000;
+}
+/* footer */
+
+/* update */
+.update {
+  width: 80%;
+  margin: 1rem auto;
+}
+
+.update #idbuka {
+  width: 100%;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  border: 2px solid #00ffff;
+  background: none;
+  transition: all 0.3s ease;
+}
+
+.update #idbuka:hover {
+  background-color: #00ffff;
+  color: #f6f6f6;
+}
+/* update */
+
+.content {
+  border: 2px solid #000;
+  width: 100%;
+  margin: auto;
+  display: flex;
+  display: grid;
+  justify-items: center;
+  padding: 1rem 0;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 10px 0;
+}
+
+.gallery-size {
+  width: 90%;
+}

@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sarana Akomodasi</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css" />
+    <link rel="stylesheet" href="jqAsset/jquery-ui.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="bg-img/me.jpg" type="image/x-icon" />
+  </head>
+  <body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #00ffff">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Goa Rang Reng</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="objectwisata.html">Object Wisata</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Sarana Akomodasi</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="wawasan.html">News</a>
+            </li>
+          </ul>
+          <div class="d-flex">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+            <button class="btn btn-outline-success" data-bs-toggle="modal" data-bs-target="#exampleModal">Search</button>
+            <!-- isi modal -->
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Inovasi</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <ol>
+                      <li>Menjadi Web Developer yang bisa diandalkan oleh tim</li>
+                      <li>Menerima masukan dari para user tentang tampilan atau fitur tambahan yang akan dimasukan dalam website</li>
+                      <li>Menjadi lebih baik lagi dalam bidang Web Development</li>
+                    </ol>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- akhir modal -->
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- akhir navbar -->
+
+    <!-- carousel -->
+    <div id="carouselExampleDark" class="carousel slide carousel-fade" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active" data-bs-interval="10000">
+          <img src="bg-img/img1.jpg" class="d-block w-100 img-size" alt="img1" />
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Goa Rang Reng</h5>
+            <p>Pengunjung juga bisa mendatangi Goa Rang Reng selain menikmati air terjun.</p>
+          </div>
+        </div>
+        <div class="carousel-item" data-bs-interval="2000">
+          <img src="bg-img/img2.jpg" class="d-block w-100 img-size" alt="img2" />
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Air Terjun</h5>
+            <p>Air terjun yang sangan unik menjadi daya tarik wisatawan</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="bg-img/bg3.jpg" class="d-block w-100 img-size" alt="bg3" />
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Lebatnya Pepohonan</h5>
+            <p>Daera yang masih asri dan sejuknya angin menjadi salah satu tempat untuk rehat yang tepat</p>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <!-- akhir carousel -->
+
+    <!-- sarana akomodasi -->
+    <div class="container-fluid">
+      <div class="header-sarana" id="sarana">
+        <h2 class="text-center">Sarana Akomodasi</h2>
+      </div>
+      <div class="tab-sarana">
+        <ul>
+          <li><a href="#tabs-1">Kamar Mandi</a></li>
+          <li><a href="#tabs-2">Tempat Sampah</a></li>
+          <li><a href="#tabs-3">Tempat Parkir</a></li>
+        </ul>
+        <div id="tabs-1">
+          <div class="sarana1">
+            <div class="img-sarana">
+              <img src="bg-img/fasilitas1.png" alt="" id="kamar" />
+            </div>
+            <div class="desc">
+              <h3>Kamar Mandi</h3>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-half"></i>
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse, dolorum tempore id sapiente laboriosam blanditiis ducimus in, saepe possimus aperiam repellendus? Consequatur assumenda quos quis nisi quo quidem soluta porro?
+              </p>
+            </div>
+          </div>
+        </div>
+        <div id="tabs-2">
+          <div class="sarana2">
+            <div class="img-sarana">
+              <img src="bg-img/fasilitas2.png" alt="" id="sampah" />
+            </div>
+            <div class="desc">
+              <h3>Tempat Sampah</h3>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-half"></i>
+              <i class="bi bi-star"></i>
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse, dolorum tempore id sapiente laboriosam blanditiis ducimus in, saepe possimus aperiam repellendus? Consequatur assumenda quos quis nisi quo quidem soluta porro?
+              </p>
+            </div>
+          </div>
+        </div>
+        <div id="tabs-3">
+          <div class="sarana2">
+            <div class="img-sarana">
+              <img src="bg-img/fasilitas4.png" alt="" id="parkir" />
+            </div>
+            <div class="desc">
+              <h3>Tempat Parkir</h3>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star"></i>
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse, dolorum tempore id sapiente laboriosam blanditiis ducimus in, saepe possimus aperiam repellendus? Consequatur assumenda quos quis nisi quo quidem soluta porro?
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- update -->
+    <section class="update">
+      <div id="dialogku" title="Kupon Diskon">
+        <p>Tiket Parkir Motor: Rp. 1000</p>
+        <p>Tiket Parkir Mobil: Rp. 2000</p>
+        <p>Tiket Masuk: Rp. 5000</p>
+        <br />
+        <p>!!P.S: untuk menutup klik kolom kosong disebelah pojok kanan!!</p>
+      </div>
+      <button id="idbuka">Cek Tiket</button>
+    </section>
+    <!-- update -->
+    <!-- akhir sarana akomodasi -->
+
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+      <path
+        fill="#00ffff"
+        fill-opacity="1"
+        d="M0,128L48,154.7C96,181,192,235,288,250.7C384,267,480,245,576,224C672,203,768,181,864,149.3C960,117,1056,75,1152,80C1248,85,1344,139,1392,165.3L1440,192L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
+      ></path>
+    </svg>
+    <!-- footer -->
+    <div class="container-fluid footer">
+      <div class="row">
+        <div class="col-4">
+          <p>Copyright 2021 created with <i class="bi bi-heart-fill text-danger"></i> By Suyud Setiawan</p>
+        </div>
+        <div class="col-4">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="objectwisata.html">Object Wisata</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Sarana Akomodasi</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Kujungan Wisata</a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-4">
+          <h3>Everyday Agency</h3>
+          <p>Semangat Menjadi Dan Memberi</p>
+        </div>
+      </div>
+    </div>
+    <!-- akhir footer -->
+
+    <script src="jqAsset/jquery-3.6.0.min.js"></script>
+    <script src="jqAsset/jquery-ui.js"></script>
+    <script src="jqAsset/jquery-ui.min.js"></script>
+    <script src="../bootstrap-5.1.1-dist/bootstrap-5.1.1-dist/js/bootstrap.min.js"></script>
+    <script>
+      $(function () {
+        // dialog
+        $('#dialogku').dialog({
+          autoOpen: false,
+          show: 'blind',
+          hide: 'fade',
+        });
+        $('#idbuka').click(function () {
+          $('#dialogku').dialog('open');
+          return false;
+        });
+        // dialog
+
+        // tab
+        $('.tab-sarana').tabs();
+        // tab
+      });
+    </script>
+  </body>
+</html>
