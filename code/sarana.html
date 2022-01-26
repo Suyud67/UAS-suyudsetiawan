@@ -4,10 +4,10 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Review & News</title>
+    <title>Sarana Akomodasi</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css" />
-    <link rel="stylesheet" href="jqAsset/jquery-ui.css" />
+    <link rel="stylesheet" href="../jqAsset/jquery-ui.css" />
     <link rel="stylesheet" href="style.css" />
     <link rel="icon" href="bg-img/me.jpg" type="image/x-icon" />
   </head>
@@ -28,10 +28,10 @@
               <a class="nav-link" href="objectwisata.html">Object Wisata</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="sarana.html">Sarana Akomodasi</a>
+              <a class="nav-link active" aria-current="page" href="#">Sarana Akomodasi</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">News</a>
+              <a class="nav-link" href="wawasan.html">News</a>
             </li>
           </ul>
           <div class="d-flex">
@@ -107,110 +107,87 @@
     </div>
     <!-- akhir carousel -->
 
-    <!-- news -->
+    <!-- sarana akomodasi -->
     <div class="container-fluid">
-      <div class="header-news text-center">
-        <h2>News & Reviews</h2>
-        <p>Review dan news dari para pengunjung</p>
+      <div class="header-sarana" id="sarana">
+        <h2 class="text-center">Sarana Akomodasi</h2>
       </div>
-      <div class="row">
-        <div class="col-md-7">
-          <div class="content-news">
-            <div class="img-news">
-              <figure class="figure">
-                <img src="https://www.kintamani.id/wp-content/uploads/Air-Terjun-Goa-Rang-Reng-Gianyar-2-1024x1024.jpg" style="width: 100%" id="content1" />
-                <figcaption class="figure-caption">Foto dari pengunjung</figcaption>
-              </figure>
+      <div class="tab-sarana">
+        <ul>
+          <li><a href="#tabs-1">Kamar Mandi</a></li>
+          <li><a href="#tabs-2">Tempat Sampah</a></li>
+          <li><a href="#tabs-3">Tempat Parkir</a></li>
+        </ul>
+        <div id="tabs-1">
+          <div class="sarana1">
+            <div class="img-sarana">
+              <img src="bg-img/fasilitas1.png" alt="" id="kamar" />
             </div>
-            <div class="desc-news">
-              <h3>Air Terjun Goa Rang Reng Gianyar, Wisata Alam Indah Terbaru di Bali</h3>
+            <div class="desc">
+              <h3>Kamar Mandi</h3>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-half"></i>
               <p>
-                Ada satu tempat wisata alam baru yang menarik perhatian banyak orang, namanya Air Terjung Goa Rang Reng Gianyar. Tempat ini memang berada di Gianyar yang terkenal dengan sebagai daerah dataran tinggi dengan suasana dingin.
-                Keberadaan tempat ini masih terbilang baru, tapi sudah cukup dikenal oleh para pencinta alam.
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse, dolorum tempore id sapiente laboriosam blanditiis ducimus in, saepe possimus aperiam repellendus? Consequatur assumenda quos quis nisi quo quidem soluta porro?
               </p>
-              <a href="https://www.kintamani.id/air-terjun-goa-rang-reng-gianyar-wisata-alam-indah-terbaru-bali/" class="btn btn-primary">Cek Lebih Lanjut</a>
             </div>
           </div>
         </div>
-        <!-- list review -->
-        <div class="col-md-5">
-          <h3>List Review Dari Para Pendatang</h3>
-          <ol>
-            <li>
-              <a href="#content1" class="link-dark text-decoration-none">Air Terjun Goa Rang Reng Gianyar, Wisata Alam Indah Terbaru di Bali</a>
-            </li>
-            <li>
-              <a href="#content2" class="link-dark text-decoration-none">Tempat Wisata di Bali</a>
-            </li>
-            <li>
-              <a href="#content3" class="link-dark text-decoration-none">AIR TERJUN GOA RANG RENG DI GIANYAR</a>
-            </li>
-            <li>
-              <a href="#content4" class="link-dark text-decoration-none">Dingin Sejuk Goa Rang Reng Waterfall</a>
-            </li>
-          </ol>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-md-7 mt-3">
-          <div class="content-news">
-            <div class="img-news">
-              <figure class="figure">
-                <img src="https://tempatwisatadibali.info/wp-content/uploads/2017/09/Air-Terjun-Goa-Reng-reng-Gianyar-Bali-1.jpg" id="content2" class="figure-image img-fluid rounded" style="width: 100%" />
-                <figcaption class="figure-caption">Foto Para Pendatang</figcaption>
-              </figure>
+        <div id="tabs-2">
+          <div class="sarana2">
+            <div class="img-sarana">
+              <img src="bg-img/fasilitas2.png" alt="" id="sampah" />
             </div>
-            <div class="desc-news">
-              <h3>Tempat Wisata di Bali</h3>
+            <div class="desc">
+              <h3>Tempat Sampah</h3>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-half"></i>
+              <i class="bi bi-star"></i>
               <p>
-                Sahabat traveler’s, alamat wisata air terjun goa reng reng sendiri berlokasi di Gitgit, Bakbakan, Kecamatan Gianyar, Kabupaten Gianyar, Bali. Lokasi wisata air terjun di Kecamatan Gianyar ini berjarak sekitar 31 kilometer
-                jauhnya dari arah Kota Denpasar. Namun jika dari arah Kota Gianyar sendiri, Lokasi Wisata ini hanya berjarak sekitar 3 kilometer jauh perjalannya.
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse, dolorum tempore id sapiente laboriosam blanditiis ducimus in, saepe possimus aperiam repellendus? Consequatur assumenda quos quis nisi quo quidem soluta porro?
               </p>
-              <a href="https://tempatwisatadibali.info/air-terjun-goa-rang-reng-gianyar-bali/" class="btn btn-primary">Cek Lebih Lanjut</a>
             </div>
           </div>
         </div>
-        <div class="col-md-7 mt-3">
-          <div class="content-news">
-            <div class="img-news">
-              <figure class="figure">
-                <img src="https://www.balitoursclub.net/wp-content/uploads/2016/03/Air-Terjun-Goa-Rang-Reng-Gianyar.jpg" alt="img2" class="figure-image img-fluid rounded" style="width: 100%" id="content3" />
-                <figcaption class="figure-caption">Hasil Jepretan Dari Pengunjung</figcaption>
-              </figure>
+        <div id="tabs-3">
+          <div class="sarana2">
+            <div class="img-sarana">
+              <img src="bg-img/fasilitas4.png" alt="" id="parkir" />
             </div>
-            <div class="desc-news">
-              <h3>AIR TERJUN GOA RANG RENG DI GIANYAR</h3>
+            <div class="desc">
+              <h3>Tempat Parkir</h3>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star"></i>
               <p>
-                Kabupaten Gianyar selain terkenal karena penghasil karya seni, juga populer karena memiliki sejumlah pemandangan alam indah, sehingga saat ini wisatawan termasuk turis domestik, menjadikan kawasan ini sebagi tujuan liburan
-                wajib.
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse, dolorum tempore id sapiente laboriosam blanditiis ducimus in, saepe possimus aperiam repellendus? Consequatur assumenda quos quis nisi quo quidem soluta porro?
               </p>
-              <a href="https://www.balitoursclub.net/air-terjun-goa-rang-reng/" class="btn btn-primary">Cek Lebih Lanjut</a>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-7 mt-3">
-          <div class="content-news">
-            <div class="img-news">
-              <figure class="figure">
-                <img src="https://i.ibb.co/9g1w0mS/Whats-App-Image-2021-01-30-at-08-54-16-1.jpg" alt="img2" class="figure-image img-fluid rounded" style="width: 100%" id="content4" />
-                <figcaption class="figure-caption">Foto: instagram/@infopedungan</figcaption>
-              </figure>
-            </div>
-            <div class="desc-news">
-              <h3>Dingin Sejuk Goa Rang Reng Waterfall</h3>
-              <p>
-                Mencari tempat yang cocok untuk menenangkan diri bisa langsung dijumpai di Bali. Datang saja ke Air Terjung Goa Rang Reng yang menyimpan banyak keindahan dan ketenangan. Tempatnya masih tersembunyi, jadi jarang disambangi
-                wisatawan. Alamatnya terletak di Banjar Gitgit, Bakbakan, Kabupaten Gianyar Bali. Harga tiket masuknya sebesar Rp5.000 per orang. Sedangkan jam buka mulai dari 8 pagi hingga 6 sore.
-              </p>
-              <a href="https://brisik.id/read/63173/dingin-sejuk-goa-rang-reng-waterfall" class="btn btn-primary">Cek Lebih Lanjut</a>
             </div>
           </div>
         </div>
       </div>
     </div>
-    <!-- akhir news -->
+    <!-- update -->
+    <section class="update">
+      <div id="dialogku" title="Kupon Diskon">
+        <p>Tiket Parkir Motor: Rp. 1000</p>
+        <p>Tiket Parkir Mobil: Rp. 2000</p>
+        <p>Tiket Masuk: Rp. 5000</p>
+        <br />
+        <p>!!P.S: untuk menutup klik kolom kosong disebelah pojok kanan!!</p>
+      </div>
+      <button id="idbuka">Cek Tiket</button>
+    </section>
+    <!-- update -->
+    <!-- akhir sarana akomodasi -->
 
-    <!-- footer -->
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
       <path
         fill="#00ffff"
@@ -218,6 +195,7 @@
         d="M0,128L48,154.7C96,181,192,235,288,250.7C384,267,480,245,576,224C672,203,768,181,864,149.3C960,117,1056,75,1152,80C1248,85,1344,139,1392,165.3L1440,192L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
       ></path>
     </svg>
+    <!-- footer -->
     <div class="container-fluid footer">
       <div class="row">
         <div class="col-4">
@@ -247,12 +225,12 @@
     </div>
     <!-- akhir footer -->
 
-    <script src="jqAsset/jquery-3.6.0.min.js"></script>
-    <script src="jqAsset/jquery-ui.js"></script>
-    <script src="jqAsset/jquery-ui.min.js"></script>
-    <script src="../bootstrap-5.1.1-dist/bootstrap-5.1.1-dist/js/bootstrap.min.js"></script>
+    <script src="../jqAsset/jquery-3.6.0.min.js"></script>
+    <script src="../jqAsset/jquery-ui.js"></script>
+    <script src="../jqAsset/jquery-ui.min.js"></script>
     <script>
       $(function () {
+        // dialog
         $('#dialogku').dialog({
           autoOpen: false,
           show: 'blind',
@@ -262,6 +240,11 @@
           $('#dialogku').dialog('open');
           return false;
         });
+        // dialog
+
+        // tab
+        $('.tab-sarana').tabs();
+        // tab
       });
     </script>
   </body>

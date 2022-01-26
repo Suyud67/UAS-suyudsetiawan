@@ -4,12 +4,13 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Sarana Akomodasi</title>
+    <title>Object Wisata</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css" />
-    <link rel="stylesheet" href="jqAsset/jquery-ui.css" />
+    <link rel="stylesheet" href="../jqAsset/jquery-ui.css" />
     <link rel="stylesheet" href="style.css" />
     <link rel="icon" href="bg-img/me.jpg" type="image/x-icon" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
   </head>
   <body>
     <!-- navbar -->
@@ -25,10 +26,10 @@
               <a class="nav-link" href="index.html">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="objectwisata.html">Object Wisata</a>
+              <a class="nav-link active" aria-current="page" href="#">Object Wisata</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Sarana Akomodasi</a>
+              <a class="nav-link" href="sarana.html">Sarana Akomodasi</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="wawasan.html">News</a>
@@ -107,86 +108,73 @@
     </div>
     <!-- akhir carousel -->
 
-    <!-- sarana akomodasi -->
+    <!-- about -->
     <div class="container-fluid">
-      <div class="header-sarana" id="sarana">
-        <h2 class="text-center">Sarana Akomodasi</h2>
+      <div class="header-about text-center" data-aos="zoom-in">
+        <h2>About</h2>
       </div>
-      <div class="tab-sarana">
-        <ul>
-          <li><a href="#tabs-1">Kamar Mandi</a></li>
-          <li><a href="#tabs-2">Tempat Sampah</a></li>
-          <li><a href="#tabs-3">Tempat Parkir</a></li>
-        </ul>
-        <div id="tabs-1">
-          <div class="sarana1">
-            <div class="img-sarana">
-              <img src="bg-img/fasilitas1.png" alt="" id="kamar" />
-            </div>
-            <div class="desc">
-              <h3>Kamar Mandi</h3>
-              <i class="bi bi-star-fill"></i>
-              <i class="bi bi-star-fill"></i>
-              <i class="bi bi-star-fill"></i>
-              <i class="bi bi-star-fill"></i>
-              <i class="bi bi-star-half"></i>
-              <p>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse, dolorum tempore id sapiente laboriosam blanditiis ducimus in, saepe possimus aperiam repellendus? Consequatur assumenda quos quis nisi quo quidem soluta porro?
-              </p>
-            </div>
+      <div class="row">
+        <div class="col-md-6" data-aos="fade-right">
+          <div class="section-img">
+            <img src="bg-img/img2.png" alt="" />
+          </div>
+          <div class="desc">
+            <p>
+              Air Terjun Goa Rang Reng Gianyar memang belum sepopuler air terjun yang lain, namun keindahannya sangat memukau. Keunikan pada air terjun ini airnya tidak mengucur deras ke bawah layaknya air terjun pada umumnya. Aliran air di
+              sini menyebar melalui undakan bebatuan sehingga lebih landai dan tidak curam. Dinamakan dengan Air Terjun Goa Rang Reng karena pada bagian atas air terjun yang merupakan hulu sungai terdapat sebuah gua yang dinamakan Goa Rang
+              Reng. Untuk menuju goa tersebut, pengunjung dapat menyurusi bebatuan kering di sebelah kiri air terjun.Goa Rang Reng tersebut tembus ke belakang membentuk lubang yang dapat ditembus cahaya matahari.
+            </p>
           </div>
         </div>
-        <div id="tabs-2">
-          <div class="sarana2">
-            <div class="img-sarana">
-              <img src="bg-img/fasilitas2.png" alt="" id="sampah" />
-            </div>
-            <div class="desc">
-              <h3>Tempat Sampah</h3>
-              <i class="bi bi-star-fill"></i>
-              <i class="bi bi-star-fill"></i>
-              <i class="bi bi-star-fill"></i>
-              <i class="bi bi-star-half"></i>
-              <i class="bi bi-star"></i>
-              <p>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse, dolorum tempore id sapiente laboriosam blanditiis ducimus in, saepe possimus aperiam repellendus? Consequatur assumenda quos quis nisi quo quidem soluta porro?
-              </p>
-            </div>
-          </div>
-        </div>
-        <div id="tabs-3">
-          <div class="sarana2">
-            <div class="img-sarana">
-              <img src="bg-img/fasilitas4.png" alt="" id="parkir" />
-            </div>
-            <div class="desc">
-              <h3>Tempat Parkir</h3>
-              <i class="bi bi-star-fill"></i>
-              <i class="bi bi-star-fill"></i>
-              <i class="bi bi-star-fill"></i>
-              <i class="bi bi-star-fill"></i>
-              <i class="bi bi-star"></i>
-              <p>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse, dolorum tempore id sapiente laboriosam blanditiis ducimus in, saepe possimus aperiam repellendus? Consequatur assumenda quos quis nisi quo quidem soluta porro?
-              </p>
-            </div>
+        <div class="col-md-6" data-aos="fade-left">
+          <div class="desc">
+            <p>Daya Tarik Air Terjun Goa Rang Reng</p>
+
+            <ol>
+              <li>
+                Pemandangan Alam yang Asri Selama di perjalanan menuju Air Terjun Goa Rang Reng, Anda akan disuguhkan pemandangan yang asri nan hijau. Anda tidak akan menemui polusi di tempat ini. Suasana sejuk dan tenteram dapat menjadi
+                pelepas penat yang bagus bagi Anda yang jengah dengan rutinitas kerja atau sekolah yang melelahkan.
+              </li>
+              <li>
+                Bermain Air Anda dapat bersantai penuh ketika berada di Air Terjun Goa Rang Reng. Anda dapat bermain air dan mandi di tempat ini. Air terjun yang jernih dan berasal langsung dari pegunungan merupakan daya tarik wisata alam
+                yang keren.
+              </li>
+              <li>
+                Lokasi Foto Keren Selain digunakan untuk bermain air atau berendam, Air Terjun Goa Rang Reng juga terkenal dengan pemandangan alam dan air terjun yang keren. Banyak turis lokal maupun asing mengabadikan momen mereka dengan
+                mengambil gambar sebanyak-banyaknya di lokasi air terjun.
+              </li>
+            </ol>
           </div>
         </div>
       </div>
     </div>
-    <!-- update -->
-    <section class="update">
-      <div id="dialogku" title="Kupon Diskon">
-        <p>Tiket Parkir Motor: Rp. 1000</p>
-        <p>Tiket Parkir Mobil: Rp. 2000</p>
-        <p>Tiket Masuk: Rp. 5000</p>
-        <br />
-        <p>!!P.S: untuk menutup klik kolom kosong disebelah pojok kanan!!</p>
+    <!-- akhir about -->
+
+    <!-- lokasi -->
+    <div class="container-fluid">
+      <div class="header-lokasi text-center" data-aos="zoom-in">
+        <h2>Lokasi</h2>
       </div>
-      <button id="idbuka">Cek Tiket</button>
-    </section>
-    <!-- update -->
-    <!-- akhir sarana akomodasi -->
+      <div class="row">
+        <div class="col-md-6" data-aos="fade-right">
+          <div class="img-lokasi">
+            <img src="bg-img/img1.jpg" alt="" />
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="desc" data-aos="fade-left">
+            <p>
+              Air Terjun Goa Rang Reng ini memiliki daya tersendiri bagi para pengunjung air terjun. Walaupun lokasi air terjun ini terbilang tersembunyi namun banyak juga ditemui turis lokal maupun asing berkunjung ke tempat wisata ini.
+              Berikut ini adalah daya tarik Air Terjun Goa Rang Reng Bali. Air terjun ini terletak di Banjar Gitgit, Desa Bakbakan, Kecamatan Gianyar, Kabupaten Gianyar di Pulau Bali. Rute perjalanan menuju ke Air Terjun Goa Rang Reng dapat
+              menggunakan kendaraan roda empat atau roda dua. Anda akan menemui tempat parkir untuk menitipkan kendaraan Anda. Anda lalu Anda diharuskan untuk jalan kaki menuruni setapak yang masih berupa tanah dan bebatuan. Waktu terbaik
+              untuk berkunjung ke Air Terjun Goa Rang Reng adalah di musim kemarau. Hal ini untuk menghindari jalanan setapak yang becek menuju Air Terjun Goa Rang Reng. Jalanan setapak yang becek dan bebatuan yang licin memiliki banyak
+              risiko yang membahayakan keselamatan Anda. Apabila Anda membawa anak kecil maka hal itu akan sangat merepotkan Anda.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- akhir lokasi -->
 
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
       <path
@@ -204,13 +192,13 @@
         <div class="col-4">
           <ul class="navbar-nav ms-auto">
             <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="index.html">Home</a>
+              <a class="nav-link" href="index.html">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="objectwisata.html">Object Wisata</a>
+              <a class="nav-link" href="#">Object Wisata</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Sarana Akomodasi</a>
+              <a class="nav-link" href="sarana.html">Sarana Akomodasi</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="index.html">Kujungan Wisata</a>
@@ -225,28 +213,13 @@
     </div>
     <!-- akhir footer -->
 
-    <script src="jqAsset/jquery-3.6.0.min.js"></script>
-    <script src="jqAsset/jquery-ui.js"></script>
-    <script src="jqAsset/jquery-ui.min.js"></script>
+    <script src="../jqAsset/jquery-3.6.0.min.js"></script>
+    <script src="../jqAsset/jquery-ui.js"></script>
+    <script src="../jqAsset/jquery-ui.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="../bootstrap-5.1.1-dist/bootstrap-5.1.1-dist/js/bootstrap.min.js"></script>
     <script>
-      $(function () {
-        // dialog
-        $('#dialogku').dialog({
-          autoOpen: false,
-          show: 'blind',
-          hide: 'fade',
-        });
-        $('#idbuka').click(function () {
-          $('#dialogku').dialog('open');
-          return false;
-        });
-        // dialog
-
-        // tab
-        $('.tab-sarana').tabs();
-        // tab
-      });
+      AOS.init();
     </script>
   </body>
 </html>
